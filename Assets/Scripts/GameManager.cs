@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
     public AudioSource audioSource;
 
     private float fl_blueTimer, fl_greenTimer, fl_redTimer, fl_yellowTimer, fl_timer = 0.5f;
-    private bool bl_lit = false;
 
     Renderer rend_bluebutton, rend_greenbutton, rend_redbutton, rend_yellowbutton;
 
